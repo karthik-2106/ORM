@@ -42,6 +42,11 @@ class booksAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
+
+
+
+
+
 ![image](https://github.com/karthik-2106/ORM/assets/150319557/5ebc3fef-00b6-4793-8539-65076eaf86b5)
 
 ![Screenshot 2024-03-18 193322](https://github.com/karthik-2106/ORM/assets/150319557/53e8dcaa-cfa2-414b-a462-a911552338a6)
