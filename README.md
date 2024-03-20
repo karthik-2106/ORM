@@ -4,6 +4,9 @@
 ## AIM
 To develop a Django application to store and retrieve data from a Book database using Object Relational Mapping(ORM).
 
+## Entity Relationship Diagram
+![WhatsApp Image 2024-03-01 at 08 15 22_7246cde5](https://github.com/karthik-2106/ORM/assets/150319557/caf2a886-2550-4986-93ce-c9e0706efa67)
+
 
 ## DESIGN STEPS
 
@@ -20,15 +23,15 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-```
-admin.py
 
+## admin.py
+```
 from django.contrib import admin
 from .models import books,booksAdmin
 admin.site.register(books,booksAdmin)
-
-models.py
-
+```
+## models.py
+```
 from django.db import models
 from django.contrib import admin
 class books(models.Model):
@@ -42,11 +45,6 @@ class booksAdmin(admin.ModelAdmin):
 ```
 
 ## OUTPUT
-
-
-
-
-
 ![image](https://github.com/karthik-2106/ORM/assets/150319557/5ebc3fef-00b6-4793-8539-65076eaf86b5)
 
 ![Screenshot 2024-03-18 193322](https://github.com/karthik-2106/ORM/assets/150319557/53e8dcaa-cfa2-414b-a462-a911552338a6)
